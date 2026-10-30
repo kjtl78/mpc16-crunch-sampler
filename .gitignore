@@ -1,0 +1,13 @@
+# Build directories
+build/
+cmake-build-*/
+
+# Local JUCE checkout (fetched automatically via CMake FetchContent if absent)
+JUCE/
+
+# macOS & IDE artifacts
+.DS_Store
+*.xcodeproj
+*.xcworkspace
+.vscode/
+.idea/
